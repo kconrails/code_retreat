@@ -1,0 +1,22 @@
+This will set you up with basic automated testing for code retreat
+practice using Conway's Game of Life. It will create a "code_retreat"
+gemset, install the needed gems, and set the gemset as your default
+whenever you enter the working directory.
+
+Set it up by rvm use-ing your chosen ruby version, then running this
+on the command line:
+
+    ruby setup.rb
+
+When you want to start over, reset like this:
+
+    ruby reset.rb
+
+This will remove all your code changes.
+
+If you have the screencapture application installed, this will
+take a screenshot every time you save your file, so you can look
+back fondly on your work :)  These will be saved in the "screencaptures"
+directory as png files you can later turn into a slideshow if you want.
+
+screenshots are timestamped, and not erased when you reset.

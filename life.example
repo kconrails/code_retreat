@@ -1,0 +1,17 @@
+#!/usr/bin/ruby
+
+require 'test/unit'
+require 'rubygems'
+require 'redgreen'
+require 'fsevent'
+require 'dust'
+
+# code goes here
+
+
+# tests go here
+class LifeTest < Test::Unit::TestCase
+  test "should do something" do
+    assert true
+  end
+end
